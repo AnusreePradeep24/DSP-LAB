@@ -19,3 +19,9 @@ Where, fs is the sampling frequency (rate at which the signal is sampled), fmax 
   • Image processing 
   
   • Medical imaging 
+
+**RESULT:** 
+
+Verified Sampling Theorem using MATLAB.
+ 
+
