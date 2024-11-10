@@ -11,4 +11,36 @@ The Inverse Discrete Fourier Transform (IDFT) is used to convert a frequency-dom
 The IDFT takes the frequency components X[k] and reconstructs the original sequence x[n]. The exponential factor e^(j 2π/N nk) is the inverse of the DFT’s complex sinusoidal basis functions . Application Spectrum (Analysis) Filtering Compression Modulation Convolution Demodulation Equalization Restoration Detection Estimation
 
 ## OBSERVATION
+#### DFT
+
+enter sequence:[1 1 1 0] 
+
+enter the N point:8 
+
+X 
+  
+  Columns 1 through 7 
+   3.0000 + 0.0000i   1.7071 - 1.7071i   0.0000 - 1.0000i   0.2929 + 0.2929i   1.0000 + 0.0000i   0.2929 - 0.2929i  -0.0000 + 1.0000i 
+  
+  Column 8 
+   1.7071 + 1.7071i 
+
+round(X) 
+  
+  Columns 1 through 7 
+   3.0000 + 0.0000i   2.0000 - 2.0000i   0.0000 - 1.0000i   0.0000 + 0.0000i   1.0000 + 0.0000i  0.0000 + 0.0000i   0.0000 + 1.0000i 
+ 
+  Column 8 
+   2.0000 + 2.0000i 
+
+fft 
+  
+  Columns 1 through 7 
+   3.0000 + 0.0000i   1.7071 - 1.7071i   0.0000 - 1.0000i   0.2929 + 0.2929i   1.0000 + 0.0000i   0.2929 - 0.2929i   0.0000 + 1.0000i 
+
+  Column 8 
+   1.7071 + 1.7071i
+
+   ![image](https://github.com/user-attachments/assets/3a9a5fa3-cffa-46a5-8208-3935aef1ad73)
+
 
