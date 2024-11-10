@@ -13,34 +13,17 @@ The IDFT takes the frequency components X[k] and reconstructs the original seque
 ## OBSERVATION
 #### DFT
 
-enter sequence:[1 1 1 0] 
+Enter the sequence: 
+[ 1 2 3 4]
+Enter value of N for N-point DFT :
+4
+DFT without inbuilt function:
+  10.0000 + 0.0000i  -2.0000 + 2.0000i  -2.0000 + 0.0000i  -2.0000 - 2.0000i
 
-enter the N point:8 
+DFT using FFT:
+  10.0000 + 0.0000i  -2.0000 + 2.0000i  -2.0000 + 0.0000i  -2.0000 - 2.0000i
+![Screenshot (80)](https://github.com/user-attachments/assets/9903539d-2203-47ac-9372-16c4b3653714)
 
-X 
-  
-  Columns 1 through 7 
-   3.0000 + 0.0000i   1.7071 - 1.7071i   0.0000 - 1.0000i   0.2929 + 0.2929i   1.0000 + 0.0000i   0.2929 - 0.2929i  -0.0000 + 1.0000i 
-  
-  Column 8 
-   1.7071 + 1.7071i 
 
-round(X) 
-  
-  Columns 1 through 7 
-   3.0000 + 0.0000i   2.0000 - 2.0000i   0.0000 - 1.0000i   0.0000 + 0.0000i   1.0000 + 0.0000i  0.0000 + 0.0000i   0.0000 + 1.0000i 
- 
-  Column 8 
-   2.0000 + 2.0000i 
-
-fft 
-  
-  Columns 1 through 7 
-   3.0000 + 0.0000i   1.7071 - 1.7071i   0.0000 - 1.0000i   0.2929 + 0.2929i   1.0000 + 0.0000i   0.2929 - 0.2929i   0.0000 + 1.0000i 
-
-  Column 8 
-   1.7071 + 1.7071i
-
-   ![image](https://github.com/user-attachments/assets/3a9a5fa3-cffa-46a5-8208-3935aef1ad73)
 
 
