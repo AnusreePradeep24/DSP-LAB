@@ -1,4 +1,4 @@
-**AIM:** 
+## **AIM:** 
 
 To find the linear convolution with and without using function. 
 
@@ -6,7 +6,7 @@ To find the linear convolution with and without using function.
 
 (b) Without Using Built-in function
 
-**THEORY:**
+## **THEORY:**
 
 Linear convolution is a mathematical operation used to combine two signals to produce a third signal. 
 It's a fundamental operation in signal processing and systems theory. 
@@ -27,7 +27,11 @@ Applications:
 • Image Processing: Convolution is used for tasks like edge detection, blurring, and sharpening 
   images.
 
-**RESULT:** 
+## **OBSERVATION**
+![image](https://github.com/user-attachments/assets/193a9abd-9965-45bd-b3f8-733fd08d68cb)
+
+
+## **RESULT:** 
 
 Performed Linear Convolution using with and without built-in function.
 
