@@ -1,4 +1,6 @@
-**Overlap-Add Method**
+## THEORY
+
+### **Overlap-Add Method**
 
 The Overlap-Add method, on the other hand, handles circular convolution by adding overlapping sections of the convolved blocks. Here’s how it works:
 
@@ -8,7 +10,7 @@ FFT and Convolution: Each block is convolved with the filter using FFT. Since th
 
 Overlap and Add: After convolution, the results of each block overlap by samples. These overlapping regions are added together to form the final output.
 
-**Overlap-Save Method**
+### **Overlap-Save Method**
 
 The Overlap-Save method deals with circular convolution by discarding the parts of the signal that are corrupted by wrap-around effects. Here's how it works:
 
@@ -17,3 +19,6 @@ Block Decomposition: The input signal is divided into overlapping blocks. If the
 FFT and Convolution: Each block is convolved with the filter using FFT. However, because of circular convolution, the result contains artifacts due to the overlap.
 
 Discard and Save: We discard the first samples from each block (the part affected by the wrap-around) and save the remaining samples. This gives us the correct linear convolution.
+
+## OBSERVATION
+
