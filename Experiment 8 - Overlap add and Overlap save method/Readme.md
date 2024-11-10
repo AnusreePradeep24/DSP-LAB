@@ -21,4 +21,23 @@ FFT and Convolution: Each block is convolved with the filter using FFT. However,
 Discard and Save: We discard the first samples from each block (the part affected by the wrap-around) and save the remaining samples. This gives us the correct linear convolution.
 
 ## OBSERVATION
+#### Ovelap Add Method
+Enter the sequence:
+[1 2 3 4 5 6 7 8 9]
 
+Enter the sequence:
+[1 2 3]                     
+
+1.0000    4.0000   10.0000   16.0000   22.0000   28.0000   34.0000   40.0000   46.0000   42.0000   27.0000         
+1.0000    4.0000   10.0000   16.0000   22.0000   28.0000   34.0000   40.0000   46.0000   42.0000   27.0000
+
+#### Overlap Save Method
+
+Enter the sequence:
+[1 2 3 4 5 6 7 8 9]
+
+Enter the sequence:
+[1 2 3]                     
+
+1.0000    4.0000   10.0000   16.0000   22.0000   28.0000   34.0000   40.0000   46.0000   42.0000   27.0000         
+1.0000    4.0000   10.0000   16.0000   22.0000   28.0000   34.0000   40.0000   46.0000   42.0000   27.0000
