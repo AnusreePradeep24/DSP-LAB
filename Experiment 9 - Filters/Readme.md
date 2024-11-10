@@ -1,4 +1,6 @@
-**Design of FIR Filters Using Window Methods**
+## THEORY
+
+### **Design of FIR Filters Using Window Methods**
 
 In FIR (Finite Impulse Response) filter design, the goal is to create a filter with specific frequency response characteristics, such as low-pass, high-pass, band-pass, or band-stop. Using window methods, we can shape the filter response by applying a window function to an ideal filter impulse response. Steps for FIR Filter Design Using Windows
 
@@ -45,15 +47,15 @@ Compute the Ideal Impulse Response:
 Apply the Hamming Window:
 w(n) = 0.54 - 0.46 * cos(2 * pi * n / 50) Then, compute h(n) = h_ideal(n) * w(n). 5. Use h(n) as FIR Filter Coefficients: The resulting h(n) values form the coefficients of the FIR filter, which can be used in a filtering algorithm.
 
-Advantages and Disadvantages of Window-Based FIR Design
+#### Advantages and Disadvantages of Window-Based FIR Design
 
-Advantages: 
+###### Advantages: 
 
 • Simplicity: Windowing is straightforward and does not require iterative optimization. 
 
 • Control over Leakage: Different windows provide different control over sidelobes and main lobe width, allowing design flexibility.
 
-Disadvantages: 
+###### Disadvantages: 
 
 • Fixed Frequency Response: Once the window is chosen, the frequency response characteristics are determined, limiting customization. 
 
