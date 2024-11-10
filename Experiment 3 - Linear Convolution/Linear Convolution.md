@@ -28,7 +28,20 @@ Applications:
   images.
 
 ## **OBSERVATION**
-![image](https://github.com/user-attachments/assets/193a9abd-9965-45bd-b3f8-733fd08d68cb)
+
+(a) using built-in function: 
+
+    3     8     8    12     9     4     4
+![image](https://github.com/user-attachments/assets/a85af9dd-0260-485d-9d41-f6c848bda937)
+
+
+
+(b) without using built-in function:
+
+    3     8     8    12     9     4     4
+
+![image](https://github.com/user-attachments/assets/04b95ce8-37e9-40f2-ac05-d21b0a964842)
+
 
 
 ## **RESULT:** 
