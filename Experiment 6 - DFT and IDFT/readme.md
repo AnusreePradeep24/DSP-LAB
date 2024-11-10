@@ -12,18 +12,76 @@ The IDFT takes the frequency components X[k] and reconstructs the original seque
 
 ## OBSERVATION
 #### DFT
+##### DFT with and without using builtin function
 
 Enter the sequence: 
 [ 1 2 3 4]
+
 Enter value of N for N-point DFT :
 4
 DFT without inbuilt function:
+  
   10.0000 + 0.0000i  -2.0000 + 2.0000i  -2.0000 + 0.0000i  -2.0000 - 2.0000i
 
 DFT using FFT:
+  
   10.0000 + 0.0000i  -2.0000 + 2.0000i  -2.0000 + 0.0000i  -2.0000 - 2.0000i
 ![Screenshot (80)](https://github.com/user-attachments/assets/9903539d-2203-47ac-9372-16c4b3653714)
 
 
+##### DFT using twiddle factor matrix
 
+Enter the sequence: [1 2 3 4] 
 
+Enter value of N for N-point DFT: 4 
+
+Twiddle Factor Matrix: 
+  
+   1.0000 + 0.0000i   1.0000 + 0.0000i   1.0000 + 0.0000i   1.0000 + 0.0000i 
+   1.0000 + 0.0000i   0.0000 - 1.0000i  -1.0000 + 0.0000i   0.0000 + 1.0000i 
+   1.0000 + 0.0000i  -1.0000 + 0.0000i   1.0000 + 0.0000i  -1.0000 + 0.0000i 
+   1.0000 + 0.0000i   0.0000 + 1.0000i  -1.0000 + 0.0000i   0.0000 - 1.0000i 
+ 
+DFT using Twiddle factor matrix multiplication: 
+  
+  10.0000 + 0.0000i  -2.0000 - 2.0000i  -2.0000 + 0.0000i  -2.0000 + 2.0000i 
+ 
+DFT using FFT: 
+  
+  10.0000 + 0.0000i  -2.0000 + 2.0000i  -2.0000 + 0.0000i  -2.0000 - 2.0000i
+
+  #### IDFT
+  ##### IDFT with and without using twiddle factor matrix
+
+Enter DFT sequence: [1 2 3 4] 
+
+Enter the value of N for N-point IDFT:4 
+
+IDFT without using inbuilt func on: 
+  
+   2.5000 + 0.0000i  -0.5000 - 0.5000i  -0.5000 + 0.0000i  -0.5000 + 0.5000i 
+ 
+IDFT using ifft: 
+   
+   2.5000 + 0.0000i  -0.5000 - 0.5000i  -0.5000 + 0.0000i  -0.5000 + 0.5000i 
+
+##### IDFT using twiddle factor matrix
+
+Enter DFT sequence: [1 2 3 4] 
+
+Enter the value of N for N-point IDFT: 4 
+
+Displaying Twiddle Factor Matrix 
+   
+   1.0000 + 0.0000i   1.0000 + 0.0000i   1.0000 + 0.0000i   1.0000 + 0.0000i 
+   1.0000 + 0.0000i   0.0000 + 1.0000i  -1.0000 + 0.0000i  -0.0000 - 1.0000i 
+   1.0000 + 0.0000i  -1.0000 + 0.0000i   1.0000 - 0.0000i  -1.0000 + 0.0000i 
+   1.0000 + 0.0000i  -0.0000 - 1.0000i  -1.0000 + 0.0000i   0.0000 + 1.0000i 
+ 
+IDFT without using Twiddle factor matrix mul plica on: 
+  
+   2.5000 + 0.0000i  -0.5000 + 0.5000i  -0.5000 + 0.0000i  -0.5000 - 0.5000i 
+ 
+IDFT using ifft: 
+   
+   2.5000 + 0.0000i  -0.5000 - 0.5000i  -0.5000 + 0.0000i  -0.5000 + 0.5000i 
