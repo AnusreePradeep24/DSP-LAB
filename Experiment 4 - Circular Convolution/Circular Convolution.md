@@ -1,4 +1,4 @@
-**AIM:** 
+## **AIM:** 
 
 To find circular convolution 
 
@@ -8,7 +8,7 @@ To find circular convolution
 
 (c) Using Matrix Method. 
 
-**THEORY:** 
+## **THEORY:** 
 
 Circular convolution is a mathematical operation that is like linear convolution but is performed in a periodic or circular manner. This is particularly useful in discrete-time signal processing where signals are often represented as periodic sequences. 
 
@@ -24,3 +24,24 @@ Applications:
 •  Digital Signal Processing: It's a fundamental operation in many digital signal processing        algorithms. 
 
 •  Cyclic Convolution: In certain applications, such as cyclic prefix OFDM, circular convolution is used to simplify the implementation of linear convolution.
+
+## OBSERVATION
+
+(a) Using FFT and IFFT:
+            
+            12     8     8    12
+
+(b) Using Concentric Circle Method:            
+           
+            12     8     8    12
+
+(c) Using matrix method:
+        
+            12     8     8    12
+
+## RESULT
+
+Performed Circular Convolution using (a) FFT and IFFT; (b) Concentric Circle method; (c) Matrix method and verified result.
+ 
+
+
