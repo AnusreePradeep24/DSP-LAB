@@ -1,4 +1,4 @@
-**AIM:**
+## **AIM:**
 
 To generate continuous and discrete waveforms of 
 1. Unit Impulse signal 
@@ -11,7 +11,7 @@ To generate continuous and discrete waveforms of
 8. Triangular wave 
 9. Exponential signal 
 
-**THEORY:**
+## **THEORY:**
 
 1. Unit Impulse Signal:
    
@@ -67,7 +67,12 @@ To generate continuous and discrete waveforms of
  
  •	Mathematically: e^(at)
 
-**RESULT:**
+## OBSERVATION
+
+![image](https://github.com/user-attachments/assets/00ef4ee4-9213-4d56-bcdf-48707ea825f6)
+
+
+## **RESULT:**
 
 Generated and Verified various Continuous and Discrete waveforms for basic test signals.
 
